@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Password Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main">
+        <div class="heading">
+            <h1>Random Password Generator</h1>
+        <div class="box">
+            <span id="pass-box">Testing</span>
+            <div class="row">
+                <div class="left">
+                    Password Length
+                </div>
+                <div class="right">
+                    <input type="number" name="" id="total-char" max="30" min="2" value="10"/>
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="left">
+                    Contains Uppercase
+                </div>
+                <div class="right">
+                    <input type="checkbox" name="" id="upper-case" checked/>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="left">
+                    Contains Lowercase
+                </div>
+                <div class="right">
+                    <input type="checkbox" name="" id="lower-case"/>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="left">
+                    Contains Numbers
+                </div>
+                <div class="right">
+                    <input type="checkbox" name="" id="numbers"/>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="left">
+                    Contains Symbols
+                </div>
+                <div class="right">
+                    <input type="checkbox" name="" id="symbols"/>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="left">
+                    Password Strength
+                </div>
+                <div class="right">
+                    <div id="password-strength">Weak</div>
+                </div>
+            </div>
+
+            <div class="row">
+                <button id="btn">
+                    Generate Password
+                </button>
+            </div>
+        </div>
+    </div>
+    </div>
+
+ <script src="app.js"></script>   
+</body>
+
+</html>
